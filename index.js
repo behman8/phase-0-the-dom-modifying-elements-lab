@@ -1,7 +1,5 @@
 let node = document.getElementById("main");
-if (node.parentNode) {
-    node.parentNode.removeChild(node);
-}
+    node.remove();
 
 const newHeader = document.createElement('h1');
 document.body.appendChild(newHeader);
